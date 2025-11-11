@@ -1,9 +1,9 @@
 export default function CallToAction() {
     return (
-    <section id="contact" className="py-24 text-center bg-linear-to-r from-blue-500/20 to-black">
-            <h3 className="text-3xl font-bold mb-4">
+        <section id="contact" className="py-24 text-center bg-linear-to-r from-blue-500/20 to-black">
+            <h2 className="text-3xl font-bold mb-4">
                 As vagas com desconto <span className="text-blue-400">estão acabando!</span>
-            </h3>
+            </h2>
             <p className="text-gray-300 mb-8">
                 Garanta seu site profissional com preço promocional e comece a vender agora mesmo.
             </p>

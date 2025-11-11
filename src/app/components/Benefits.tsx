@@ -10,9 +10,9 @@ export default function Benefits() {
 
     return (
         <section id="benefits" className="py-24 text-center relative">
-            <h3 className="text-3xl font-semibold mb-12">
+            <h2 className="text-3xl font-semibold mb-12">
                 Por que <span className="text-blue-400">ter um site profissional</span>?
-            </h3>
+            </h2>
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6">
                 {items.map((item, i) => (
                     <div
@@ -20,7 +20,7 @@ export default function Benefits() {
                         className="bg-black/40 border border-blue-500/20 rounded-xl p-6 hover:scale-105 transition-transform"
                     >
                         <div className="text-blue-400 mb-4 flex justify-center">{item.icon}</div>
-                        <h4 className="text-lg font-bold mb-2">{item.title}</h4>
+                        <h3 className="text-lg font-bold mb-2">{item.title}</h3>
                         <p className="text-gray-400 text-sm">{item.desc}</p>
                     </div>
                 ))}

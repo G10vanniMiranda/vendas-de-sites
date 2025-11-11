@@ -59,7 +59,7 @@ export default function Hero() {
                     transition={{ delay: 0.3, duration: 1 }}
                     className="text-gray-300 max-w-2xl mx-auto mb-8"
                 >
-                    Sites modernos, rápidos e com design estilo IA — feitos para converter visitantes em clientes reais.
+                    Sites modernos, rápidos e com design estilo IA, feitos para converter visitantes em clientes reais.
                 </motion.p>
 
                 <motion.a

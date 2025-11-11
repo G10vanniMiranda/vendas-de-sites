@@ -13,7 +13,7 @@ export default function Footer() {
             />
 
             <div className="relative z-10">
-                <p>© {new Date().getFullYear()} Mi7anda Soluções — Todos os direitos reservados.</p>
+                <p>© {new Date().getFullYear()} Mi7anda — Todos os direitos reservados.</p>
                 <div className="mt-4 flex justify-center gap-6 text-sm">
                     <a href="/termos" className="hover:text-blue-400">Termos de Uso</a>
                     <a href="/privacidade" className="hover:text-blue-400">Privacidade (LGPD)</a>
