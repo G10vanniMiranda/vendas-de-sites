@@ -17,7 +17,7 @@ export default function Catalogo() {
             icon: <FaGlobe size={30} />,
             nome: "Site Institucional Profissional",
             publico: "Empresas, escritórios e contabilidades",
-            preco: "A partir de R$ 2.000",
+            preco: "A partir de R$ 2.500",
             link: "https://wa.me/5569999787798?text=Olá! Tenho interesse em um site institucional profissional.",
         },
         {
@@ -124,7 +124,7 @@ export default function Catalogo() {
                             href={p.link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="mt-6 bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-medium transition-all shadow-md"
+                            className="mt-6 bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-medium transition-all shadow-md cta-pulse"
                         >
                             Falar com especialista
                         </a>
@@ -146,7 +146,7 @@ export default function Catalogo() {
                 <a
                     href="https://wa.me/5569999787798?text=Olá! Quero descobrir qual site é ideal para o meu negócio."
                     target="_blank"
-                    className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold shadow-lg"
+                    className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold shadow-lg cta-pulse"
                 >
                     Falar agora no WhatsApp
                 </a>

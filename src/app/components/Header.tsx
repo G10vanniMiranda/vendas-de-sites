@@ -27,21 +27,23 @@ export default function Header() {
 
                 {/* Menu desktop */}
                 <nav className="hidden md:flex items-center  gap-8 text-sm">
-                    <a href="#benefits" className="hover:text-blue-400 transition-colors">
+                    <Link href="#benefits" className="hover:text-blue-400 transition-colors">
                         Benefícios
-                    </a>
-                    <a href="#portfolio" className="hover:text-blue-400 transition-colors">
+                    </Link>
+                    <Link href="#portfolio" className="hover:text-blue-400 transition-colors">
                         Portfólio
-                    </a>
-                    <a href="#plans" className="hover:text-blue-400 transition-colors">
+                    </Link>
+                    <Link href="#plans" className="hover:text-blue-400 transition-colors">
                         Planos
-                    </a>
-                    <a
-                        href="#contact"
-                        className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-medium transition-all shadow-md"
+                    </Link>
+                    <Link
+                        href="https://wa.me/5569999787798?text=Ol%C3%A1! Quero criar meu site profissional com a Mi7anda."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-medium transition-all shadow-md cta-pulse"
                     >
                         Quero meu site
-                    </a>
+                    </Link>
                 </nav>
 
                 {/* Botão mobile */}
@@ -64,34 +66,36 @@ export default function Header() {
                         transition={{ duration: 0.3 }}
                         className="md:hidden bg-black/95 backdrop-blur-lg border-t border-blue-500/20 flex flex-col items-center gap-6 py-6"
                     >
-                        <a
+                        <Link
                             href="#benefits"
                             onClick={() => setOpen(false)}
                             className="hover:text-blue-400 text-lg transition-colors"
                         >
                             Benefícios
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                             href="#portfolio"
                             onClick={() => setOpen(false)}
                             className="hover:text-blue-400 text-lg transition-colors"
                         >
                             Portfólio
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                             href="#plans"
                             onClick={() => setOpen(false)}
                             className="hover:text-blue-400 text-lg transition-colors"
                         >
                             Planos
-                        </a>
-                        <a
-                            href="#contact"
+                        </Link>
+                        <Link
+                            href="https://wa.me/5569999787798?text=Ol%C3%A1! Quero criar meu site profissional com a Mi7anda."
                             onClick={() => setOpen(false)}
-                            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-medium transition-all shadow-lg"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-medium transition-all shadow-lg cta-pulse"
                         >
                             Quero meu site 🚀
-                        </a>
+                        </Link>
                     </motion.nav>
                 )}
             </AnimatePresence>

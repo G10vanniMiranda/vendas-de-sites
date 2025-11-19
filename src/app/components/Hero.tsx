@@ -3,6 +3,7 @@
 import { Canvas } from "@react-three/fiber";
 import { Points, PointMaterial } from "@react-three/drei";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import * as THREE from "three";
 import { useMemo } from "react";
 
@@ -62,14 +63,14 @@ export default function Hero() {
                     Sites modernos, rápidos e com design estilo IA, feitos para converter visitantes em clientes reais.
                 </motion.p>
 
-                <motion.a
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    href="#plans"
-                    className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold shadow-lg"
-                >
-                    Quero meu site agora 🚀
-                </motion.a>
+                <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                    <Link
+                        href="#plans"
+                        className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold shadow-lg cta-pulse inline-block"
+                    >
+                        Quero meu site agora 🚀
+                    </Link>
+                </motion.div>
             </div>
         </section>
     );

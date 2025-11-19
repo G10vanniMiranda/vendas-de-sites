@@ -10,7 +10,7 @@ export default function CallToAction() {
             <a
                 href="https://wa.me/5569999787798"
                 target="_blank"
-                className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-medium"
+                className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-medium cta-pulse"
             >
                 Falar comigo agora 💬
             </a>

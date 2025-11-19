@@ -1,4 +1,5 @@
 import { FaRocket, FaRobot, FaGlobe, FaMobileAlt } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Benefits() {
     const items = [
@@ -26,12 +27,12 @@ export default function Benefits() {
                 ))}
             </div>
             <div className="mt-12">
-                <a
+                <Link
                     href="#plans"
-                    className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-medium transition-all"
+                    className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-medium transition-all cta-pulse inline-block"
                 >
                     Quero um site assim 🔥
-                </a>
+                </Link>
             </div>
         </section>
     );
