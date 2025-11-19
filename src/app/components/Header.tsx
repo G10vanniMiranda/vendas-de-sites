@@ -15,7 +15,7 @@ export default function Header() {
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-3 hover:scale-150 transition-transform" aria-label="Ir para a Home">
                     <Image
-                        src="/logo-sem-fundo.png"
+                        src="/logo.png"
                         alt="Mi7anda Soluções"
                         width={160}
                         height={40}
