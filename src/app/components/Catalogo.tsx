@@ -17,14 +17,14 @@ export default function Catalogo() {
             icon: <FaGlobe size={30} />,
             nome: "Site Institucional Profissional",
             publico: "Empresas, escritórios e contabilidades",
-            preco: "A partir de R$ 2.500",
+            preco: "A partir de R$ 3.000",
             link: "https://wa.me/5569999787798?text=Olá! Tenho interesse em um site institucional profissional.",
         },
         {
             icon: <FaShoppingBag size={30} />,
             nome: "E-commerce Completo",
             publico: "Lojas e marcas que vendem online",
-            preco: "A partir de R$ 10.000",
+            preco: "A partir de R$ 20.000",
             link: "https://wa.me/5569999787798?text=Olá! Quero saber mais sobre o e-commerce completo.",
         },
     ];
